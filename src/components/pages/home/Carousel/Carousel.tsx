@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css"; // Elimina el tilde
 import { SliderContainer } from "./styles";
 const data = [
   {
-    img: "https://res.cloudinary.com/dzjf00pvx/image/upload/v1698272508/bola-cristal-palabra-su-lado_s6vti4.jpg",
+    img: "https://res.cloudinary.com/dzjf00pvx/image/upload/v1699371358/vista1_l5ffrd.png"
   },
 ];
 
@@ -13,8 +13,8 @@ const Carousel: React.FC = () => {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 2,
+    slidesToScroll: 1, 
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
@@ -26,15 +26,17 @@ const Carousel: React.FC = () => {
           <h3>1</h3>
           {data.map((d) => (
             <div>
-              <img width={300} height={350} src={d.img} alt="foto" />
+              <img width={700} height={450} src={d.img} alt="foto" />
             </div>
           ))}
         </div>
+
+        
         <div>
           <h3>2</h3>
           {data.map((d) => (
             <div>
-              <img width={300} height={350} src={d.img} alt="foto" />
+              <img width={700} height={450} src={d.img} alt="foto" />
             </div>
           ))}
         </div>

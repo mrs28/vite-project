@@ -2,28 +2,26 @@ import styled from "styled-components";
 
 export const ExpertiseContainer = styled.div`
   width: 100%;
-  height: 100vh;
-//   background-color: #161e21;
-background-color: pink;
+ 
 `;
 
 export const ExpertiseTitleBox = styled.div`
   display: flex;
-   background-color: blue;
-
+  padding: 1rem 0 1rem 6rem;
+  // background-color: blue;
 `;
 
 export const SliderCount = styled.p`
-  width: 4rem;
-  height: 8rem;
+  width: 5rem;
   text-align: justify;
   font-size: 0.7rem;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
+  padding-top: 2.8rem;
 `;
 
 export const Title = styled.h2`
   font-size: 3rem;
   text-align: left;
-  padding: 1rem 0 1rem 17rem;
+  padding-left: 10rem;
 `;

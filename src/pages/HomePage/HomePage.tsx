@@ -1,45 +1,23 @@
 import React from "react";
-import {
-  HomeContainer,
-  BoxParagraph,
-  SmallParagraph,
-  Paragraph,
-  BoxSphere,
-  MainBox,
-} from "./styles";
-import MainImage from "../../components/pages/home/MainImage/MainImage";
+import { HomeContainer } from "./styles";
 
-import Header from "../../components/Header/Header";
+import Welcome from "../../components/pages/home/Welcome/Welcome";
+import OurExpertise from "../../components/pages/home/OurExpertise/OurExpertise";
+import Banner from "../../components/commons/Banner/Banner";
+import OurCapabilities from "../../components/pages/home/OurCapabilities/OurCapabilities";
+import Experience from "../../components/pages/home/Experience/Experience";
 
-
- 
 // import SouthEastIcon from '@mui/icons-material/SouthEast';
 
 const HomePage: React.FC = () => {
   return (
     <HomeContainer>
-
-      <MainBox>
-        <Header />
-
-        <BoxParagraph>
-          <SmallParagraph>
-            Building strong relations, creating stunning digital products
-          </SmallParagraph>
-          <Paragraph>Design. Development. Experiences.</Paragraph>
-        </BoxParagraph>
-      </MainBox>
-
-      <BoxSphere>
-        <MainImage />
-      </BoxSphere>
-
-
+      <Welcome />
+      <OurExpertise />
+      <OurCapabilities />
+      <Banner />
+      <Experience />
     </HomeContainer>
-
-
-
-
   );
 };
 

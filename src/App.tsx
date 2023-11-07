@@ -1,13 +1,12 @@
 import React from "react";
 import HomePage from "./pages/HomePage/HomePage";
-import OurExpertise from "./components/pages/home/OurExpertise/OurExpertise";
+import LayoutHome from "./components/LayoutHome/LayoutHome";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <LayoutHome>
       <HomePage />
-      <OurExpertise />
-    </div>
+    </LayoutHome>
   );
 };
 

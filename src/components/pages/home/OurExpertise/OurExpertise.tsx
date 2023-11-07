@@ -11,8 +11,8 @@ const OurExpertise: React.FC = () => {
   return (
     <ExpertiseContainer>
       <ExpertiseTitleBox>
-        <SliderCount> hola</SliderCount>
-        <Title>Our Projects</Title>
+        <SliderCount>1 -- 6</SliderCount>
+        <Title>Case studies</Title>
       </ExpertiseTitleBox>
 
       <Carousel/>
