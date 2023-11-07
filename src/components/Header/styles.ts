@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
-export const BoxNav = styled.div`
+export const BoxHeader = styled.div`
 display: flex;
 padding: 1rem;
 width: 100%;
 justify-content: space-between;
+// background-color: blue;
 `;
 
 export const NavList = styled.ul`

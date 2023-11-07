@@ -1,12 +1,12 @@
 import React from "react";
-import { BoxNav, NavList } from "./styles";
-// import { Link } from "react-router-dom";
-import Logo from "../../components/Logo/Logo";
+import { BoxHeader, NavList } from "./styles";
+// import {  Link } from "react-router-dom";
+import Logo from "../Logo/Logo";
 
-const Nav: React.FC = () => {
+const Header: React.FC = () => {
   return (
-    <BoxNav>
-     <Logo width={"35px"} height={"35px"} brandName={"MundoDev*"} />
+    <BoxHeader>
+      <Logo width={"35px"} height={"35px"} brandName={"MundoDev*"} />
       <NavList>
         <li>CONTACT</li>
         <li>CONTACT</li>
@@ -22,8 +22,8 @@ const Nav: React.FC = () => {
           Contact
         </Link> */}
       </NavList>
-    </BoxNav>
+    </BoxHeader>
   );
 };
 
-export default Nav;
+export default Header;

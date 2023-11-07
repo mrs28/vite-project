@@ -5,18 +5,22 @@ import {
   SmallParagraph,
   Paragraph,
   BoxSphere,
-  NavParagraph,
+  MainBox,
 } from "./styles";
 import MainImage from "../../components/pages/home/MainImage/MainImage";
-import Nav from "../../components/Nav/Nav";
-// import SouthEastIcon from '@mui/icons-material/SouthEast';
 
+import Header from "../../components/Header/Header";
+
+
+ 
+// import SouthEastIcon from '@mui/icons-material/SouthEast';
 
 const HomePage: React.FC = () => {
   return (
     <HomeContainer>
-      <NavParagraph>
-       <Nav/>
+
+      <MainBox>
+        <Header />
 
         <BoxParagraph>
           <SmallParagraph>
@@ -24,12 +28,18 @@ const HomePage: React.FC = () => {
           </SmallParagraph>
           <Paragraph>Design. Development. Experiences.</Paragraph>
         </BoxParagraph>
-      </NavParagraph>
+      </MainBox>
 
       <BoxSphere>
         <MainImage />
       </BoxSphere>
+
+
     </HomeContainer>
+
+
+
+
   );
 };
 

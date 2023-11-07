@@ -6,10 +6,11 @@ export const HomeContainer = styled.div`
   height: 100vh;
 `;
 
-export const NavParagraph = styled.div`
+export const MainBox = styled.div`
   display: flex;
   flex-direction: column;
   width: 60%;
+  // background-color: red;
 `;
 
 export const BoxParagraph = styled.div`

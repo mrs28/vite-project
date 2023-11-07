@@ -4,9 +4,8 @@ import { Sphere } from "./styles";
 const MainImage: React.FC = () => {
   return (
    <Sphere 
-   src="https://res.cloudinary.com/dzjf00pvx/image/upload/v1696986911/Dise%C3%B1o_sin_t%C3%ADtulo_1_ftmsb0.png"
-   alt="esfera plateada"
-   width={"440px"}
+   src="https://res.cloudinary.com/dzjf00pvx/image/upload/v1698272508/bola-cristal-palabra-su-lado_s6vti4.jpg"
+   width={"445px"}
    height={"445px"}
    />
   )
