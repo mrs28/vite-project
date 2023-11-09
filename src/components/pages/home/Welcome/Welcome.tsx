@@ -1,6 +1,6 @@
 import React from "react";
 import MainImage from "../MainImage/MainImage";
-import Header from "../../../Header/Header";
+import Header from "../../../commons/Header/Header";
 import {
   WelcomeContainer,
   BoxParagraph,

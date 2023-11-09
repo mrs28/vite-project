@@ -3,7 +3,7 @@ import { DefaultProps } from "../../types/props/default.props";
 import { LayoutContainer } from "./styles";
 
 
-import Footer from "../Footer/Footer";
+import Footer from "../commons/Footer/Footer";
 
 const LayoutHome: React.FC<DefaultProps> = ({ children }) => {
   return (
