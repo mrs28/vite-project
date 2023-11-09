@@ -6,6 +6,7 @@ export const BoxLogo = styled.div`
   align-items: center;
   justify-content: center;
   padding-left: 0.5rem;
+  margin-right: 2rem;
 `;
 
 export const ImgLogo = styled.img``;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const SliderContainer = styled.div`
-  background-color: green;
-  padding: 3rem;
+ //background-color: green;
+  padding: 0 3rem 3rem 3rem;
 `;
 
 export const SliderBox = styled.div`

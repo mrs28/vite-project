@@ -1,5 +1,5 @@
 import React from "react";
-import { BoxHeader, NavList } from "./styles";
+import { BoxHeader, NavList, List } from "./styles";
 // import {  Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 
@@ -8,10 +8,17 @@ const Header: React.FC = () => {
     <BoxHeader>
       <Logo width={"35px"} height={"35px"} brandName={"MundoDev*"} />
       <NavList>
-        <li>CONTACT</li>
-        <li>CONTACT</li>
-        <li>CONTACT</li>
-        <li>CONTACT</li>
+        <List>
+            Home
+        </List>
+        <List>
+            Projects
+        </List>
+        <List>
+            Contact us
+        </List>
+     
+        
         {/* <Link to="/">
           Home
         </Link>

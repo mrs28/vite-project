@@ -7,8 +7,7 @@ export const ExpertiseContainer = styled.div`
 
 export const ExpertiseTitleBox = styled.div`
   display: flex;
-  padding: 1rem 0 1rem 6rem;
-  // background-color: blue;
+  padding: 1rem 0 0 6rem;
 `;
 
 export const SliderCount = styled.p`
@@ -22,6 +21,6 @@ export const SliderCount = styled.p`
 
 export const Title = styled.h2`
   font-size: 3rem;
-  text-align: left;
+  // text-align: left;
   padding-left: 10rem;
 `;

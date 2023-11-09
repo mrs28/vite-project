@@ -3,6 +3,7 @@ import {
   CardContainer,
   CardImage,
   CardButton,
+  CardInfoDetail,
   CardCategory,
   CardTitle,
 } from "./styles";
@@ -14,8 +15,10 @@ const Card: React.FC<CardProps> = ({ item }) => {
     <CardContainer>
       <CardImage src={item.img} alt="project picture" />
       <CardButton> + </CardButton>
-      <CardCategory>{item.category}</CardCategory>
-      <CardTitle>{item.name}</CardTitle> 
+      <CardInfoDetail>
+        <CardCategory>{item.category}</CardCategory>
+        <CardTitle>{item.name}</CardTitle>
+      </CardInfoDetail>
     </CardContainer>
   );
 };
