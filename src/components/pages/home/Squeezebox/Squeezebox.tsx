@@ -31,7 +31,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "16px",
               paddingBottom: "16px",
-              fontSize: "24px",
+              fontSize: "23px",
             }}
           >
             UX & UI
@@ -60,7 +60,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "16px",
               paddingBottom: "16px",
-              fontSize: "24px",
+              fontSize: "23px",
             }}
           >
            Website Development
@@ -89,7 +89,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "16px",
               paddingBottom: "16px",
-              fontSize: "24px",
+              fontSize: "23px",
             }}
           >
             E-commerce
@@ -118,7 +118,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "16px",
               paddingBottom: "16px",
-              fontSize: "24px",
+              fontSize: "23px",
             }}
           >
          WordPress

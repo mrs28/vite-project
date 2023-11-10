@@ -15,6 +15,9 @@ const Header: React.FC = () => {
             Projects
         </List>
         <List>
+           CX
+        </List>
+        <List>
             Contact us
         </List>
      

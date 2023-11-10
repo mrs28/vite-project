@@ -21,7 +21,7 @@ export const CardButton = styled.button`
   height: 40px;
   position: absolute;
   right: 14rem;
-  bottom: 8rem;
+  bottom: 6.6rem;
 `;
 
 export const CardInfoDetail = styled.div`
