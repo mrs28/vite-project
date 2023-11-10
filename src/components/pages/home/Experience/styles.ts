@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ExperienceContainer = styled.div`
   width: 100%;
-  padding: 3rem 0 4rem 6rem;
+  padding: 2.5rem 0 2.5rem 6rem;
 `;
 
 export const ExperienceBoxText = styled.div`
@@ -11,32 +11,28 @@ export const ExperienceBoxText = styled.div`
 `;
 
 export const ExperienceTextBoxLeft = styled.div`
+  width: 17%;
+  padding-top: 3rem;
+  margin-right: 1rem;
   text-align: justify;
   font-size: 0.7rem;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
-  padding-top: 3.3rem;
-  width: 17%;
 `;
 
 export const ExperienceTextBoxCenter = styled.div`
-  width: 22%;
+  width: 18%;
+  text-align: justify;
+  margin-right: 1rem;
   
-  margin-right: 1.4rem;
-  text-align: left;
-  font-size: 1.4rem;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 2px;
-  padding-top: 2.5rem;
 `;
 
 export const ExperienceTextBoxRight = styled.div`
-  width: 66%;
-
+  width: 45%;
   text-align: justify;
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
- padding-top: 2.5rem;
+  padding-top: 2.5rem;
 `;
 
 export const ItemTextBox = styled.div`
@@ -47,11 +43,20 @@ export const ItemTextBox = styled.div`
 
 export const ExperienceText = styled.p`
   text-align: left;
+  margin: 0.4rem;
 `;
+export const ExperienceTitleCenter = styled.h2`
 
+font-size: 3rem;
+
+
+font-family: "Roboto", sans-serif;
+
+
+`;
 export const ItemList = styled.img`
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   margin-right: 0.5rem;
   border-radius: 50%;
 `;

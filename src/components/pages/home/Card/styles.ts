@@ -29,12 +29,12 @@ export const CardInfoDetail = styled.div`
   width: 100%;
   text-align: left;
   padding-left: 12rem;
-  //   text-align: center;
+ 
 `;
 
 export const CardCategory = styled.p`
   font-size: 0.8rem;
-  color: white;
+  color: #A9A9A9;
   padding: 0.5rem 0 0 0;
   margin-bottom: 0;
 `;

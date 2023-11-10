@@ -8,6 +8,7 @@ import {
   ExperienceText,
   ItemList,
   ItemTextBox,
+  ExperienceTitleCenter,
 } from "./styles";
 
 const Experience: React.FC = () => {
@@ -19,9 +20,7 @@ const Experience: React.FC = () => {
         </ExperienceTextBoxLeft>
 
         <ExperienceTextBoxCenter>
-          <ExperienceText>
-            Are you <br /> looking to?
-          </ExperienceText>
+          <ExperienceTitleCenter>Thrive</ExperienceTitleCenter>
         </ExperienceTextBoxCenter>
 
         <ExperienceTextBoxRight>
@@ -40,27 +39,18 @@ const Experience: React.FC = () => {
           </ItemTextBox>
 
           <ItemTextBox>
-          <ItemList src="https://res.cloudinary.com/dzjf00pvx/image/upload/v1698274626/logo_2_wc5jwp.png" />
-          <ExperienceText>
-          Be there for your customers 24/7/365.
-          </ExperienceText>
+            <ItemList src="https://res.cloudinary.com/dzjf00pvx/image/upload/v1698274626/logo_2_wc5jwp.png" />
+            <ExperienceText>
+              Build customer loyalty and ensure stellar performance.
+            </ExperienceText>
           </ItemTextBox>
 
           <ItemTextBox>
-          <ItemList src="https://res.cloudinary.com/dzjf00pvx/image/upload/v1698274626/logo_2_wc5jwp.png" />
-          <ExperienceText>
-          Build customer loyalty and ensure stellar performance.
-          </ExperienceText>
-          </ItemTextBox>
-          
-          <ItemTextBox>
-          <ItemList src="https://res.cloudinary.com/dzjf00pvx/image/upload/v1698274626/logo_2_wc5jwp.png" />
-           <ExperienceText>
-              
-              Deliver hyper-personalization and foster effective communication.
+            <ItemList src="https://res.cloudinary.com/dzjf00pvx/image/upload/v1698274626/logo_2_wc5jwp.png" />
+            <ExperienceText>
+              Hyper-personalization and foster effective communication.
             </ExperienceText>
           </ItemTextBox>
-          
         </ExperienceTextBoxRight>
       </ExperienceBoxText>
     </ExperienceContainer>

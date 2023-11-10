@@ -17,21 +17,22 @@ const Squeezebox: React.FC = () => {
       <Accordion
         style={{
           backgroundColor: "black",
-          borderTop: "1px solid #f5f5f5",
-          borderBottom: "1px solid #f5f5f5",
+          borderTop: "1px solid #696969",
+          borderBottom: "0.5px solid #696969",
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#696969" }} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           <Typography
             style={{
               color: "white",
-              paddingTop: "16px",
-              paddingBottom: "16px",
-              fontSize: "23px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+              fontSize: "22px",
+              letterSpacing: "2px",
             }}
           >
             UX & UI
@@ -47,20 +48,21 @@ const Squeezebox: React.FC = () => {
       <Accordion
         style={{
           backgroundColor: "black",
-          borderBottom: "1px solid #f5f5f5",
+          borderBottom: "0.5px solid #696969",
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#696969" }} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           <Typography
             style={{
               color: "white",
-              paddingTop: "16px",
-              paddingBottom: "16px",
-              fontSize: "23px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+              fontSize: "22px",
+              letterSpacing: "2px",
             }}
           >
            Website Development
@@ -76,20 +78,21 @@ const Squeezebox: React.FC = () => {
       <Accordion
         style={{
           backgroundColor: "black",
-          borderBottom: "1px solid #f5f5f5",
+          borderBottom: "0.5px solid #696969",
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#696969" }} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           <Typography
             style={{
               color: "white",
-              paddingTop: "16px",
-              paddingBottom: "16px",
-              fontSize: "23px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+              fontSize: "22px",
+              letterSpacing: "2px",
             }}
           >
             E-commerce
@@ -105,20 +108,21 @@ const Squeezebox: React.FC = () => {
       <Accordion
         style={{
           backgroundColor: "black",
-          borderBottom: "1px solid #f5f5f5",
+          borderBottom: "0.5px solid #696969",
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon style={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#696969" }} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           <Typography
             style={{
               color: "white",
-              paddingTop: "16px",
-              paddingBottom: "16px",
-              fontSize: "23px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+              fontSize: "22px",
+              letterSpacing: "2px",
             }}
           >
          WordPress

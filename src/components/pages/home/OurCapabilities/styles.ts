@@ -15,7 +15,7 @@ export const StarLeft = styled.img`
   text-align: justify;
 `;
 
-export const CapabilitiesTitle = styled.h3`
+export const CapabilitiesTitle = styled.h2`
   font-size: 3rem;
   padding-left: 12rem;
 `;
