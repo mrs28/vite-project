@@ -15,7 +15,17 @@ export const StarLeft = styled.img`
   text-align: justify;
 `;
 
+export const TitleLeft = styled.p`
+
+padding-top: 3rem;
+
+text-align: justify;
+font-size: 0.7rem;
+font-family: "Roboto", sans-serif;
+letter-spacing: 2px;
+`;
+
 export const CapabilitiesTitle = styled.h2`
   font-size: 3rem;
-  padding-left: 12rem;
+  padding-left: 8rem;
 `;

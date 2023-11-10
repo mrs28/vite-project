@@ -1,33 +1,31 @@
-import React from 'react';
-import { FooterContainer, ContainerLeft, List, ContainerRight,    } from "./styles";
+import React from "react";
+import {
+  FooterContainer,
+  ContainerLeft,
+  List,
+  ListItem,
+  ContainerRight,
+} from "./styles";
 
 const Footer: React.FC = () => {
   return (
     <FooterContainer>
-       <ContainerLeft>
-       <List>
-        <li>ABOUT</li>
-        <li>ABOUT</li>
-        <li>ABOUT</li>
-       </List>
-       <List>
-        <li>ABOUT</li>
-        <li>ABOUT</li>
-        <li>ABOUT</li>
-       </List>
-       </ContainerLeft>
-
-
-        <ContainerRight>
+      <ContainerLeft>
         <List>
-        <li>ABOUT</li>
-        <li>ABOUT</li>
-        <li>ABOUT</li>
-       </List>
-        </ContainerRight>
+         <ListItem>Projects</ListItem>
+          <ListItem>CX</ListItem>
+          <ListItem>Services</ListItem>
+        </List>
+      </ContainerLeft>
 
+      <ContainerRight>
+        <List>
+        <ListItem>Instagram</ListItem>
+        <ListItem>Contact us</ListItem>
+        </List>
+      </ContainerRight>
     </FooterContainer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,5 +1,6 @@
 import React from 'react';
-import { FormContainer, FormName, FormEmail, FormDescription } from "./styles";
+import { FormContainer, FormName, FormEmail, FormDescription, FormButtonBox, FormButton } from "./styles";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Form: React.FC = () => {
   return (
@@ -16,6 +17,11 @@ const Form: React.FC = () => {
         type="text"
         name="description"
         placeholder="Describe your idea"/>
+        <FormButtonBox>
+        <FormButton>Send</FormButton>
+        <ArrowForwardIcon/>
+        </FormButtonBox>
+     
 
     </FormContainer>
   )
