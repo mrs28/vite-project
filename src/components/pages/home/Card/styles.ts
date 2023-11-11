@@ -22,6 +22,7 @@ export const CardButton = styled.button`
   position: absolute;
   right: 14rem;
   bottom: 6.6rem;
+  cursor: pointer;
 `;
 
 export const CardInfoDetail = styled.div`
@@ -43,4 +44,5 @@ export const CardTitle = styled.h3`
   font-size: 1.5rem;
   color: white;
   margin: 0;
+  cursor: pointer;
 `;

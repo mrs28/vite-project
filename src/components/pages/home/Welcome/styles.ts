@@ -10,7 +10,6 @@ export const MainBox = styled.div`
   display: flex;
   flex-direction: column;
   width: 60%;
-  // background-color: red;
 `;
 
 export const BoxParagraph = styled.div`
@@ -18,7 +17,6 @@ export const BoxParagraph = styled.div`
   width: 60%;
   height: 50%;
   padding-top: 6rem;
-  // background-color: pink;
   padding-left: 6rem;
   z-index: 1;
 `;
@@ -33,8 +31,7 @@ export const SmallParagraph = styled.p`
 `;
 
 export const Paragraph = styled.div`
-  width: 40%;
-  // background-color: green;
+  width: 45%;
   padding-left: 6rem;
   text-align: left;
   font-size: 5.7rem;
@@ -48,5 +45,4 @@ export const Paragraph = styled.div`
 export const BoxSphere = styled.div`
   width: 30%;
   padding-right: 6rem;
-  // background-color: red;
 `;

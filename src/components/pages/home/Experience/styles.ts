@@ -1,20 +1,18 @@
 import styled from "styled-components";
 
 export const ExperienceContainer = styled.div`
-  width: 100%;
-  padding: 2rem 0 2.5rem 6rem;
+  padding: 2rem 0 2.5rem 5rem;
 `;
 
 export const ExperienceBoxText = styled.div`
   display: flex;
-  width: 100%;
-  padding: 0 0 2.5rem 0;
+  padding: 1rem 0 3rem 0;
 `;
 
 export const ExperienceTextBoxLeft = styled.div`
   width: 17%;
   padding-top: 3rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
   text-align: justify;
   font-size: 0.7rem;
   font-family: "Roboto", sans-serif;
@@ -24,7 +22,7 @@ export const ExperienceTextBoxLeft = styled.div`
 export const ExperienceTextBoxCenter = styled.div`
   width: 18%;
   text-align: justify;
-  // margin-right: 0.5rem;
+  margin-right: 0.5rem;
 `;
 
 export const ExperienceTextBoxRight = styled.div`

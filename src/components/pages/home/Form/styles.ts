@@ -5,7 +5,7 @@ export const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
 `;
 
 export const FormName = styled.input`

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const CapabilitiesContainer = styled.div`
   width: 100%;
   padding-bottom: 8rem;
+  
 `;
 
 export const CapabilitiesTitleBox = styled.div`

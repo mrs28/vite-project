@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const ExpertiseContainer = styled.div`
   width: 100%;
- 
 `;
 
 export const ExpertiseTitleBox = styled.div`
