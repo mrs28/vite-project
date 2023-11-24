@@ -8,6 +8,9 @@ export const FormBox = styled.form`
   padding-bottom: 6rem;
 `;
 
+export const Label = styled.label`
+ 
+`; 
 export const InputName = styled.input`
   height: 4rem;
   border: none;
@@ -37,7 +40,7 @@ export const FormButtonBox = styled.div`
   align-items: center;
   justify-content: flex-end;
   margin-top: 1rem;
- 
+  // cursor: pointer;
 `;
 
 export const FormButton = styled.button`
@@ -49,5 +52,22 @@ export const FormButton = styled.button`
   background-color: #000000;
   color: white;
   cursor: pointer;
-
 `;
+
+// export const FormButtonTest = styled.button`
+//   width: 100px;
+//   height: 4rem;
+ 
+//  padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+//   font-size: 16px;
+//   background-color: #3498db; /* Color de fondo */
+//   color: #fff; /* Color del texto */
+//   border: none; /* Sin borde */
+//   border-radius: 5px; /* Bordes redondeados */
+//   cursor: pointer; /* Camb
+//  background-color: red;
+// `;
+
+
+
+

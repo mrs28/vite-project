@@ -16,13 +16,16 @@ export const CardImage = styled.img`
 `;
 
 export const CardButton = styled.button`
-  border-radius: 50%;
   width: 40px;
   height: 40px;
-  position: absolute;
+  font-size: 1.5rem;
   right: 14rem;
   bottom: 6.6rem;
   cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  
 `;
 
 export const CardInfoDetail = styled.div`

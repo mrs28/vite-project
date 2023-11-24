@@ -6,6 +6,7 @@ import {
   GetInTouchTitleLeft,
 } from "./styles";
 import Form from "../Form/Form";
+// import FormFormik from "../FormFormik/FormFormik";
 
 const GetInTouch: React.FC = () => {
   return (
@@ -17,7 +18,8 @@ const GetInTouch: React.FC = () => {
         <GetInTouchTitle>Get in Touch</GetInTouchTitle>
       </GetInTouchTittleBox>
 
-      <Form/>
+      <Form />
+      {/* <FormFormik/> */}
     </GetInTouchContainer>
   );
 };
