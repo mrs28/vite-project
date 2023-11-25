@@ -10,11 +10,11 @@ import {
 
 import { CardProps } from "../../../../types/props/card.props";
 
-const Card: React.FC<CardProps> = ({ item }) => {
+const Card: React.FC<CardProps> = ({ item, openModal }) => {
   return (
     <CardContainer>
       <CardImage src={item.img} alt="project picture" />
-      <CardButton> + </CardButton>
+      <CardButton onClick={openModal}> + </CardButton>
       <CardInfoDetail>
         <CardCategory>{item.category}</CardCategory>
         <CardTitle>{item.name}</CardTitle>

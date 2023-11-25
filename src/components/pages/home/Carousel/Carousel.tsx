@@ -1,8 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; // Elimina el tilde ~
 import "slick-carousel/slick/slick-theme.css"; // Elimina el tilde
-import { SliderContainer } from "./styles";
+import { SliderContainer, ModalBox } from "./styles";
+import Modal from "../Modal/Modal";
 
 import { items } from "../../../../projectsMock";
 import Card from "../Card/Card";
@@ -17,6 +19,18 @@ import "slick-carousel/slick/slick-theme.css";
 // ];
 
 const Carousel: React.FC = () => {
+  const [selectedProject, setSelectedProject] = useState<string | null>("");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = (projectId: string) => {
+    setSelectedProject(projectId);
+    setIsModalOpen(true);
+  };
+  const closeModal = () => {
+    setSelectedProject(null);
+    setIsModalOpen(false);
+  };
+
   const settings = {
     dots: true,
     infinite: true,
@@ -62,7 +76,6 @@ const Carousel: React.FC = () => {
   //     }
   //   ]
   // };
-  
 
   return (
     <SliderContainer>
@@ -70,11 +83,20 @@ const Carousel: React.FC = () => {
         {/* <SliderBox>
           <CardBox> */}
         {items.map((item) => (
-          <Card key={item.id} item={item} />
+          <Card
+            key={item.id}
+            item={item}
+            openModal={() => openModal(item.id)}
+          />
         ))}
         {/* </CardBox>
         </SliderBox> */}
       </Slider>
+      <ModalBox>
+        {isModalOpen && selectedProject !== null && (
+          <Modal projectId={selectedProject} onClose={closeModal} />
+        )}
+      </ModalBox>
     </SliderContainer>
   );
 };

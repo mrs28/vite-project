@@ -20,7 +20,7 @@ export const CardButton = styled.button`
   height: 40px;
   font-size: 1.5rem;
   right: 14rem;
-  bottom: 6.6rem;
+  bottom: 6.8rem;
   cursor: pointer;
   border-radius: 50%;
   border: none;
