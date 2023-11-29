@@ -6,6 +6,10 @@ export const FormBox = styled.form`
   flex-direction: column;
   margin: auto;
   padding-bottom: 6rem;
+
+  @media (max-width: 380px) {
+    width: 80%;
+  }
 `;
 
 export const InputName = styled.input`
@@ -37,7 +41,6 @@ export const FormButtonBox = styled.div`
   align-items: center;
   justify-content: flex-end;
   margin-top: 1rem;
- 
 `;
 
 export const FormButton = styled.button`
@@ -49,5 +52,9 @@ export const FormButton = styled.button`
   background-color: #000000;
   color: white;
   cursor: pointer;
+
+  @media (max-width: 380px) {
+    width: 30%;
+  }
 
 `;

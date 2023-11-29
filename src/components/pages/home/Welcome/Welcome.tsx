@@ -8,14 +8,25 @@ import {
   Paragraph,
   BoxSphere,
   MainBox,
+  BoxLogoResponsive,
+  MainBoxResponsive,
 } from "./styles";
+import Logo from "../../../commons/Logo/Logo";
 
 const Welcome: React.FC = () => {
   return (
     <WelcomeContainer>
+        <BoxLogoResponsive>
+          <Logo width={"25px"} height={"25px"} brandName={"MundoDev*"} />
+        </BoxLogoResponsive>
+        <MainBoxResponsive>
+        <Paragraph>Design. Development. Experiences.</Paragraph>
+      
+        </MainBoxResponsive>
+
+
       <MainBox>
         <Header />
-
         <BoxParagraph>
           <SmallParagraph>
             Building strong relations, creating stunning digital products

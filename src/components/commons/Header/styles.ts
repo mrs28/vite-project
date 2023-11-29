@@ -5,6 +5,10 @@ export const BoxHeader = styled.div`
   padding: 1rem;
   width: 82%;
   justify-content: space-between;
+
+  @media (max-width: 380px) {
+   display: none;
+  }
 `;
 
 export const NavList = styled.ul`

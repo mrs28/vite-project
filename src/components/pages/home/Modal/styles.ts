@@ -1,19 +1,16 @@
 import styled from "styled-components";
 
 export const ModalContainer = styled.div`
-
   position: fixed;
   top: 0.5rem;
   buttom: 0.5rem;
-  width: 93%;
+  width: 92.5%;
   height: 100%;
-  // background: rgba(0, 0, 0, 0.5);
   background-color: #000000;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 `;
 
 export const ProjectTitle = styled.h2`

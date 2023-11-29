@@ -15,7 +15,7 @@ const OurExpertise: React.FC = () => {
         <Title>Case studies</Title>
       </ExpertiseTitleBox>
 
-      <Carousel/>
+      <Carousel />
     </ExpertiseContainer>
   );
 };
