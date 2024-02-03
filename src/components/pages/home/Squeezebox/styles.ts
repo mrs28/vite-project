@@ -5,7 +5,7 @@ export const AccordionContainer = styled.div`
   padding-left: 21rem;
   margin-top: 1.5rem;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     width: 95%;
     padding-left: 0;
   }

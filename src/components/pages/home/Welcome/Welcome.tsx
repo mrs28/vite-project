@@ -8,23 +8,14 @@ import {
   Paragraph,
   BoxSphere,
   MainBox,
-  BoxLogoResponsive,
   MainBoxResponsive,
 } from "./styles";
-import Logo from "../../../commons/Logo/Logo";
+import DotsMenu from "../../../commons/DotsMenu/DotsMenu";
+
 
 const Welcome: React.FC = () => {
   return (
     <WelcomeContainer>
-        <BoxLogoResponsive>
-          <Logo width={"25px"} height={"25px"} brandName={"MundoDev*"} />
-        </BoxLogoResponsive>
-        <MainBoxResponsive>
-        <Paragraph>Design. Development. Experiences.</Paragraph>
-      
-        </MainBoxResponsive>
-
-
       <MainBox>
         <Header />
         <BoxParagraph>
@@ -38,6 +29,13 @@ const Welcome: React.FC = () => {
       <BoxSphere>
         <MainImage />
       </BoxSphere>
+
+      {/* RESPONSIVE MOBILE */}
+    
+      <MainBoxResponsive>
+<DotsMenu/>
+        <Paragraph>Design. Development. Experiences.</Paragraph>
+      </MainBoxResponsive>
     </WelcomeContainer>
   );
 };

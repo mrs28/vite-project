@@ -4,8 +4,9 @@ export const CapabilitiesContainer = styled.div`
   width: 100%;
   padding-bottom: 8rem;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     padding: 1rem;
+    width: 80%;
   }
 `;
 
@@ -13,10 +14,10 @@ export const CapabilitiesTitleBox = styled.div`
   display: flex;
   padding: 1rem 0 0 6rem;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     display: flex;
     flex-direction: column;
-    padding: 0 1rem 0 0;
+    padding: 0;
     background-color: pink;
   }
 `;
@@ -33,7 +34,7 @@ export const TitleLeft = styled.p`
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     padding-top: 0;
   }
 `;
@@ -42,7 +43,7 @@ export const CapabilitiesTitle = styled.h2`
   font-size: 3rem;
   padding-left: 8rem;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     padding: 1rem;
     margin: 0;
     font-size: 2rem;

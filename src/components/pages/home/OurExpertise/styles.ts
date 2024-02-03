@@ -8,14 +8,12 @@ export const ExpertiseTitleBox = styled.div`
   display: flex;
   padding: 1rem 0 0 6rem;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 1rem;
-   
-    }
+  }
 `;
-
 
 export const SliderCount = styled.p`
   width: 5rem;
@@ -27,14 +25,15 @@ export const SliderCount = styled.p`
 `;
 
 export const Title = styled.h2`
-width: 100%;
+  width: 100%;
   font-size: 3rem;
-  // text-align: left;
   padding-left: 10rem;
-  background-color: pink;
 
-  @media (max-width: 380px) {
-    padding-left: 3rem;
-    font-size: 2rem;
-    }
+  @media (max-width: 420px) {
+    width: 100%;
+    padding-left: 1.8rem;
+    margin: 0;
+    font-size: 1.3rem;
+   
+  }
 `;

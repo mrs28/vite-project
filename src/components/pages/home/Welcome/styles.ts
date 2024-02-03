@@ -5,9 +5,8 @@ export const WelcomeContainer = styled.div`
   width: 100%;
   height: 100vh;
 
-  @media (max-width: 380px) {
-    height: 60vh;
-    flex-direction: column;
+  @media (max-width: 420px) {
+    height: 50vh;
   }
 `;
 
@@ -16,8 +15,8 @@ export const MainBox = styled.div`
   flex-direction: column;
   width: 60%;
 
-  @media (max-width: 380px) {
-    display: none;
+  @media (max-width: 420px) {
+    display: block;
   }
 `;
 
@@ -29,8 +28,9 @@ export const BoxParagraph = styled.div`
   padding-left: 6rem;
   z-index: 1;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     display: none;
+    width: 100%;
   }
 `;
 
@@ -41,10 +41,6 @@ export const SmallParagraph = styled.p`
   font-size: 0.7rem;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
-
-  @media (max-width: 380px) {
-    display: none;
-  }
 `;
 
 //*** Design Development Expeiencies ***/
@@ -59,10 +55,12 @@ export const Paragraph = styled.div`
   left: 15.5rem;
   position: absolute;
 
-  @media (max-width: 380px) {
-    font-size: 2.1rem;
+  @media (max-width: 420px) {
+    width: 70%;
+    padding-left: 1.8rem;
+    font-size: 1.8rem;
     left: 1rem;
-    top: 8.1rem;
+    top: 7.5rem;
   }
 `;
 
@@ -70,30 +68,18 @@ export const BoxSphere = styled.div`
   width: 30%;
   padding-right: 6rem;
 
-  @media (max-width: 380px) {
-    display: flex;
+  @media (max-width: 420px) {
     width: 100%;
-    justify-content: right;
-    // background-color: red;
+    padding-right: 0;
+    margin-top: 0;
   }
 `;
 
 // *** RESPONSIVE VIEW ***
-export const BoxLogoResponsive = styled.div`
-  display: none;
-
-  @media (max-width: 380px) {
-    width: 100%;
-    display: block;
-    padding-left: 2rem;
-  }
-`;
-
 export const MainBoxResponsive = styled.div`
   display: none;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     display: block;
-    width: 100%;
   }
 `;

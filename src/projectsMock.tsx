@@ -46,4 +46,14 @@ export const items: Project[] = [
     technologies:
     "https://skillicons.dev/icons?i=react,typescript,styledcomponents,vercel",
   },
+  {
+    id: "4",
+    name: "Banco Agrario de Colombia",
+    category: "UX/UI",
+    img: "https://res.cloudinary.com/dzjf00pvx/image/upload/v1706926065/Screenshot_1_jv1jvd.png",
+    description:
+    "It is a web application for customers at an automotive workshop to track the status of their vehicle's technical inspection, displaying the current state of their service.",
+    technologies:
+    "https://skillicons.dev/icons?i=react,typescript,styledcomponents,vercel",
+  },
 ];

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const GetInTouchContainer = styled.div`
   width: 100%;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     padding: 1rem;
   }
 `;
@@ -11,7 +11,7 @@ export const GetInTouchContainer = styled.div`
 export const GetInTouchTittleBox = styled.div`
   display: flex;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     display: flex;
     flex-direction: column;
   }
@@ -27,7 +27,7 @@ export const GetInTouchTitleLeft = styled.p`
   padding-top: 2.8rem;
   padding-left: 6rem;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     width: 100%;
     padding: 1rem;
     height: 0;
@@ -42,7 +42,7 @@ export const GetInTouchTitle = styled.h3`
   font-family: "Roboto", sans-serif;
   padding-left: 11.5rem;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     padding: 1rem 0 1rem 1rem;
     margin: 0;
     margin-left: 3rem;
