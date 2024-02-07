@@ -12,7 +12,7 @@ export const CardContainer = styled.div`
 `;
 
 export const CardImage = styled.img`
-  width: 850px;
+  width: 840px;
   height: 450px;
   margin: auto;
 
@@ -35,8 +35,8 @@ export const CardButton = styled.button`
   position: absolute;
 
   @media (max-width: 420px) {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     right: 9rem;
     bottom: 5rem;
   }
@@ -46,7 +46,7 @@ export const CardInfoDetail = styled.div`
   background-color: #000000;
   width: 100%;
   text-align: left;
-  padding-left: 12rem;
+  padding-left: 13rem;
 
   @media (max-width: 420px) {
     padding-left: 1rem;

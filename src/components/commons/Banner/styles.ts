@@ -15,7 +15,7 @@ export const Image = styled.img`
   margin: auto;
   background-size: cover;
 
-  @media (max-width: 380px) {
-    height: 200px;
+  @media (max-width: 420px) {
+    height: 190px;
   }
 `;

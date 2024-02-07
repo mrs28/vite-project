@@ -7,8 +7,9 @@ export const FormBox = styled.form`
   margin: auto;
   padding-bottom: 6rem;
 
-  @media (max-width: 380px) {
-    width: 80%;
+  @media (max-width: 420px) {
+    width: 85%;
+    padding: 2rem 0 1rem 0;
   }
 `;
 
@@ -54,7 +55,7 @@ export const FormButton = styled.button`
   cursor: pointer;
 
   @media (max-width: 420px) {
-    width: 30%;
+    width: 20%;
+    font-size: 1.3rem;
   }
-
 `;

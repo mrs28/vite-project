@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const BoxHeader = styled.div`
   display: flex;
   padding: 1rem;
-  width: 82%;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
 
   @media (max-width: 420px) {
     padding: 0.5rem;

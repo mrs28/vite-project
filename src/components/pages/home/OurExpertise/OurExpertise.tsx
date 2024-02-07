@@ -14,7 +14,6 @@ const OurExpertise: React.FC = () => {
         <SliderCount>1 -- 6</SliderCount>
         <Title>Case studies</Title>
       </ExpertiseTitleBox>
-
       <Carousel />
     </ExpertiseContainer>
   );

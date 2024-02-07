@@ -32,21 +32,19 @@ export const GetInTouchTitleLeft = styled.p`
     padding: 1rem;
     height: 0;
     text-align: left;
-    margin-left: 2rem;
+    padding-left: 1.3rem;
   }
 `;
 
-export const GetInTouchTitle = styled.h3`
-  text-align: justify;
+export const GetInTouchTitle = styled.h2`
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
-  padding-left: 11.5rem;
+  padding-left: 15rem;
 
   @media (max-width: 420px) {
-    padding: 1rem 0 1rem 1rem;
     margin: 0;
-    margin-left: 3rem;
+    padding-left: 1.3rem;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 `;

@@ -22,6 +22,10 @@ export const SliderCount = styled.p`
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
   padding-top: 2.8rem;
+
+  @media (max-width: 420px) {
+    padding-left: 1.6rem;
+  }
 `;
 
 export const Title = styled.h2`
@@ -34,6 +38,5 @@ export const Title = styled.h2`
     padding-left: 1.8rem;
     margin: 0;
     font-size: 1.3rem;
-   
   }
 `;

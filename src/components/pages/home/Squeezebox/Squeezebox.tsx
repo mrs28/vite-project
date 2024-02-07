@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { AccordionContainer } from "./styles";
-// import Accordion from '@mui/material/Accordion';
-// or
-// import { Accordion } from '@mui/material';
-
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-
+import useMediaQuery from "@mui/material/useMediaQuery";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Squeezebox: React.FC = () => {
+  const isSmallScreen = useMediaQuery("(max-width: 420px)");
+   // Define el estado local para el tamaño de la fuente
+   
+  const [fontSize, setFontSize] = useState(isSmallScreen ? "16px" : "20px");
+
+    // Actualiza el tamaño de la fuente cuando cambia la media query
+    useEffect(() => {
+      setFontSize(isSmallScreen ? "16px" : "20px");
+    }, [isSmallScreen]);
+
   return (
     <AccordionContainer>
       <Accordion
@@ -31,7 +37,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "10px",
               paddingBottom: "10px",
-              fontSize: "22px",
+              fontSize: fontSize,
               letterSpacing: "2px",
             }}
           >
@@ -61,7 +67,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "10px",
               paddingBottom: "10px",
-              fontSize: "22px",
+              fontSize: fontSize,
               letterSpacing: "2px",
             }}
           >
@@ -91,7 +97,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "10px",
               paddingBottom: "10px",
-              fontSize: "22px",
+              fontSize: fontSize,
               letterSpacing: "2px",
             }}
           >
@@ -121,7 +127,7 @@ const Squeezebox: React.FC = () => {
               color: "white",
               paddingTop: "10px",
               paddingBottom: "10px",
-              fontSize: "22px",
+              fontSize: fontSize,
               letterSpacing: "2px",
             }}
           >

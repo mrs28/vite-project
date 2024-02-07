@@ -1,29 +1,50 @@
 import React from "react";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+// import XIcon from '@mui/icons-material/X';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 import {
   FooterContainer,
-  ContainerLeft,
+  ContainerMenu,
+  ContainerMenuLeft,
+  ContainerMenuRight,
   List,
   ListItem,
-  ContainerRight,
+  ContainerCopyRight,
+  CopyRight,
 } from "./styles";
+import Header from "../Header/Header";
 
 const Footer: React.FC = () => {
   return (
     <FooterContainer>
-      <ContainerLeft>
-        <List>
-         <ListItem>Projects</ListItem>
-          <ListItem>CX</ListItem>
-          <ListItem>Services</ListItem>
-        </List>
-      </ContainerLeft>
+      <ContainerMenu>
+        <ContainerMenuLeft>
+          <Header />
+        </ContainerMenuLeft>
 
-      <ContainerRight>
-        <List>
-        <ListItem>Instagram</ListItem>
-        <ListItem>Contact us</ListItem>
-        </List>
-      </ContainerRight>
+        <ContainerMenuRight>
+          <List>
+            <ListItem>
+              <LinkedInIcon></LinkedInIcon>{" "}
+            </ListItem>
+            <ListItem>
+              {" "}
+              <InstagramIcon></InstagramIcon>
+            </ListItem>
+            <ListItem>
+              {" "}
+            <FacebookIcon></FacebookIcon>
+            </ListItem>
+
+          </List>
+        </ContainerMenuRight>
+      </ContainerMenu>
+
+      <ContainerCopyRight>
+        <CopyRight>Copyright 2024, MundoDev*. All Rights Reserved.</CopyRight>
+      </ContainerCopyRight>
     </FooterContainer>
   );
 };

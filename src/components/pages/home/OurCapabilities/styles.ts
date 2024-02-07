@@ -6,7 +6,7 @@ export const CapabilitiesContainer = styled.div`
 
   @media (max-width: 420px) {
     padding: 1rem;
-    width: 80%;
+    margin-bottom: 4rem;
   }
 `;
 
@@ -18,7 +18,6 @@ export const CapabilitiesTitleBox = styled.div`
     display: flex;
     flex-direction: column;
     padding: 0;
-    background-color: pink;
   }
 `;
 
@@ -36,6 +35,7 @@ export const TitleLeft = styled.p`
 
   @media (max-width: 420px) {
     padding-top: 0;
+    padding-left: 1.3rem;
   }
 `;
 
@@ -44,9 +44,8 @@ export const CapabilitiesTitle = styled.h2`
   padding-left: 8rem;
 
   @media (max-width: 420px) {
-    padding: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 1.3rem;
     margin: 0;
-    font-size: 2rem;
-    background-color: red;
+    font-size: 1.3rem;
   }
 `;
