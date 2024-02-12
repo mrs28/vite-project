@@ -12,7 +12,7 @@ const OurExpertise: React.FC = () => {
     <ExpertiseContainer>
       <ExpertiseTitleBox>
         <SliderCount>1 -- 6</SliderCount>
-        <Title>Case studies</Title>
+        <Title>Client Projects</Title>
       </ExpertiseTitleBox>
       <Carousel />
     </ExpertiseContainer>

@@ -9,8 +9,8 @@ const Header: React.FC = () => {
       <Logo width={"35px"} height={"35px"} brandName={"MundoDev*"} />
       <NavList>
         <List>Projects</List>
-        <List>About us</List>
         <List>Services</List>
+        <List>About us</List>
         <List>Contact us</List>
 
         {/* <Link to="/">

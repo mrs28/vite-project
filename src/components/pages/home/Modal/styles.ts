@@ -11,6 +11,11 @@ export const ModalContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 420px) {
+    width: 78%;
+    padding: 0.5rem;
+  }
 `;
 
 export const ProjectTitle = styled.h2`
@@ -20,6 +25,11 @@ export const ProjectTitle = styled.h2`
   cursor: pointer;
   padding: 1rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 420px) {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
 `;
 
 export const ProjectDescription = styled.div`
@@ -29,20 +39,32 @@ export const ProjectDescription = styled.div`
   max-width: 700px;
   width: 100%;
   text-align: center;
-  // margin-bottom: 1.5rem;
   background-color: black;
+
+  @media (max-width: 420px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const TechDescription = styled.p`
   padding: 1rem;
+
+  @media (max-width: 420px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const BoxTechnologies = styled.div`
   width: 100%;
   text-align: center;
   margin-bottom: 3rem;
-  // background-color: #1a1a1a;
   background-color: #000000;
+
+  @media (max-width: 420px) {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 export const ModalButton = styled.button`
@@ -50,7 +72,6 @@ export const ModalButton = styled.button`
   height: 8%;
   color: white;
   border-radius: 2px;
-  // border: solid 1px white;
   border: none;
   font-size: 1rem;
   font-weight: bold;
@@ -58,6 +79,10 @@ export const ModalButton = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: #333333; /* Color diferente cuando el mouse está encima */
+    background-color: #333333; 
+  }
+
+  @media (max-width: 420px) {
+    width: 30%;
   }
 `;

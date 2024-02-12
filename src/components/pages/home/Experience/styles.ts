@@ -28,8 +28,8 @@ export const ExperienceTextBoxLeft = styled.div`
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
 
-  @media (max-width: 380px) {
-    width: 100%;
+  @media (max-width: 420px) {
+    width: 80%;
     margin-left: 1.5rem;
   }
 `;
@@ -39,8 +39,7 @@ export const ExperienceTextBoxCenter = styled.div`
   text-align: justify;
   margin-right: 0.5rem;
 
-  @media (max-width: 380px) {
-    width: 100%;
+  @media (max-width: 420px) {
     margin-left: 3rem;
   }
 `;
@@ -52,7 +51,7 @@ export const ExperienceTextBoxRight = styled.div`
   font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
 
-  @media (max-width: 380px) {
+  @media (max-width: 420px) {
     width: 100%;
     padding: 0 1rem 0 1rem;
     font-size: 0.9rem;
@@ -65,7 +64,6 @@ export const ItemTextBox = styled.div`
   justified-content: center;
 
   @media (max-width: 420px) {
-    width: 40rem;
     padding: 0 1rem 0 1rem;
     font-size: 0.9rem;
   }

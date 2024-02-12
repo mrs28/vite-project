@@ -6,9 +6,9 @@ export const BoxLogo = styled.div`
   justify-content: center;
   padding-left: 0.5rem;
   margin-right: 2rem;
+  cursor: pointer;
 
   @media (max-width: 420px) {
-    margin-left: 1.2rem;
     margin-top: 0.5rem;
   }
 `;

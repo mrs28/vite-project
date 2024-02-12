@@ -18,7 +18,7 @@ export const ContainerMenu = styled.div`
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #696969n;
 `;
 
 export const ContainerMenuLeft = styled.div`
@@ -64,5 +64,4 @@ export const CopyRight = styled.p`
   padding: 2rem;
   text-align: center;
   font-size: 0.9rem;
-
 `;
